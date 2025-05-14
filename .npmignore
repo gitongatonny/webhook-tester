@@ -1,0 +1,97 @@
+# Development files
+node_modules/
+.git/
+.github/
+.vscode/
+.DS_Store
+.editorconfig
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Build artifacts
+coverage/
+.nyc_output/
+.cache/
+dist/temp/
+build/temp/
+
+# Test files
+__tests__/
+test/
+tests/
+*.spec.js
+*.test.js
+*.spec.ts
+*.test.ts
+jest.config.js
+mocha.opts
+
+# Configuration files
+.eslintrc*
+.prettierrc*
+.travis.yml
+.gitlab-ci.yml
+.circleci/
+.github/
+.babelrc
+tsconfig.json
+webpack.config.js
+rollup.config.js
+.huskyrc
+.lintstagedrc
+
+# Documentation files not needed in the package
+docs/
+examples/
+demo/
+tutorials/
+CONTRIBUTING.md
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*~
+*.swp
+*.swo
+
+# Source control
+.gitattributes
+.gitignore
+.gitlab/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Local files
+local/
+*.local
+
+# Large files and images not needed in the package
+*.mp4
+*.mov
+*.gif
+*.zip
+*.tar.gz
+*.rar
+screenshots/
+images/
+assets/
+!images/logo.png
+
+# Project specific
+.serve/
+*.draft.*
+TODO.md
+NOTES.md
+workflow.md
