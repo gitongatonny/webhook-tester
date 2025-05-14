@@ -1,5 +1,5 @@
 {
-  "name": "@gitongatonny/webhook-testing-tool",
+  "name": "webhook-testing-tool",
   "version": "1.0.0",
   "description": "A modern, secure, and user-friendly tool for testing webhook endpoints",
   "private": false,
