@@ -1,0 +1,30 @@
+{
+  "name": "webhook-testing-tool",
+  "version": "1.0.0",
+  "description": "A modern, secure, and user-friendly tool for testing webhook endpoints",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webhook",
+    "testing",
+    "api",
+    "http",
+    "developer-tools"
+  ],
+  "author": "Tonny",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitongatonny/webhook-tester.git"
+  },
+  "homepage": "https://github.com/gitongatonny/webhook-tester#readme",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "eslint": "^8.56.0"
+  }
+}
