@@ -1,9 +1,16 @@
 {
-  "name": "webhook-testing-tool",
+  "name": "@gitongatonny/webhook-testing-tool",
   "version": "1.0.0",
   "description": "A modern, secure, and user-friendly tool for testing webhook endpoints",
-  "private": true,
-  "main": "index.html",
+  "private": false,
+  "main": "index.js",
+  "browser": "index.js",
+  "files": [
+    "index.js",
+    "index.html",
+    "style.css",
+    "script.js"
+  ],
   "scripts": {
     "start": "serve .",
     "lint": "eslint .",
